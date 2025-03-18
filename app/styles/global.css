@@ -1,0 +1,175 @@
+/* Genel Sayfa Stili */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  background-image: url("/background-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #3b302a;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: left;
+}
+
+h1,
+h2 {
+  color: #7a4e28; /* Açık krem */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraf */
+p {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+/* Header */
+header {
+  color: white;
+  padding: 50px 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 960px;
+}
+
+/* Başlık stili */
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: #3c2f2f; /* Koyu kahverengi */
+  margin-bottom: 20px;
+}
+
+/* Footer stili */
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #3c2f2f;
+  color: white;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.header {
+  width: 100%;
+  background-color: #3c2f2f; /* Koyu kahverengi */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #f4f1e1; /* Açık bej rengi hover efekti */
+}
+
+.info {
+  height: 100%;
+  display: flex;
+  border: 1px solid #7a4e28;
+  padding: 20px;
+}
+
+.info strong {
+  color: #7a4e28;
+}
+
+.about {
+  margin-top: 50px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.services {
+  margin-top: 50px;
+  text-align: start;
+}
+
+.box {
+  color: #f4f1e1;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 14px;
+  background: rgba(96, 64, 56, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .info {
+    border: none;
+  }
+
+  .about {
+    margin-top: 10px;
+  }
+  .services {
+    margin-top: 20px;
+  }
+
+  .boxContainer {
+    flex-direction: column;
+  }
+}
