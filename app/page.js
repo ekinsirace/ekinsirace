@@ -82,7 +82,7 @@ export default function Home() {
               </div>
 
               <div className="col-sm-12 col-md-7 flex-column align-items-start info">
-                <h1>Yaşam Koçu Ekin Sıraçe | NLP ve İlişki Danışmanlığı</h1>
+                <h1>Danışman Ekin Sıraçe</h1>
                 <p className="mb-0">
                   Bilgi ve randevu için: <strong>0554 908 35 46</strong>
                 </p>
@@ -94,11 +94,11 @@ export default function Home() {
           <section className="about">
             <h2 id="hakkimda">Hakkımda</h2>
             <p>
-              1988 İzmir doğumluyum. 2013 yılında Çanakkale 18 Mart Üniversitesi
-              Oyunculuk Bölümünden mezun oldum. 2022 yılında travmatik bir
-              biçimde babamı kaybedince, yoğun, kederli ve sancılı bir yas
-              sürecinde; değiştiremeyeceğim şeyleri kabul etmek düşüncesi ile
-              başladı benim hikayem.
+              Hoş geldiniz, ben Ekin Sıraçe. 1988 İzmir doğumluyum. 2013 yılında
+              Çanakkale 18 Mart Üniversitesi Oyunculuk Bölümünden mezun oldum.
+              2022 yılında travmatik bir biçimde babamı kaybedince, yoğun,
+              kederli ve sancılı bir yas sürecinde; değiştiremeyeceğim şeyleri
+              kabul etmek düşüncesi ile başladı benim hikayem.
             </p>
             <p>
               ‘’Bi de böyle bakayım’’ diyerek iyileşmeye ve iyileştirmeye
@@ -128,7 +128,7 @@ export default function Home() {
                 <span>
                   Hayatınızda bir şeylerin değişmesini istiyor fakat nereden
                   başlayacağınızı bilemiyorsanız Yaşam Koçluğu danışmanlığı tam
-                  size göre.Hedef belirleme,motivasyon arttıtmada ve kişisel
+                  size göre.Hedef belirleme,motivasyon arttırma ve kişisel
                   potansiyelinizi keşfetmeniz konusunda size destek oluyor,adım
                   adım ilerlerken elinizden tutuyorum.
                 </span>
@@ -138,12 +138,15 @@ export default function Home() {
                 <span>
                   Zihninizde sizi sınırlayan olumsuz düşünce kalıplarınızı fark
                   edip,yeni ve güçlü inançlarla değiştirmenizde destek
-                  oluyorum.Sizin için sınır olan her şeyi aşmanız mümkün!
+                  oluyorum.Sizin için sınır olan her şeyi aşmanız mümkün!NLP
+                  teknikleri,bireyin stres,kaygı,korku gibi kişiyi kısıtlayan
+                  inançlardan kurtulmasını sağlarken,zihni yeniden
+                  programlayarak kişiye özgüven,özsaygı ve motivasyon getirir.
                 </span>
               </div>
               <div className="box">
                 <h3>
-                  Evlik, Aile ve İlişki Danışmanlığı: Sağlıklı Bağlar Kurun
+                  Evlilik, Aile ve İlişki Danışmanlığı: Sağlıklı Bağlar Kurun
                 </h3>
                 <span>
                   Sağlıklı ilişkiler kurmak,anlamak ve anlaşılmak herkesin
@@ -159,7 +162,7 @@ export default function Home() {
 
             <div className="boxContainer align-items-center justify-content-center my-4">
               <div className="box">
-                <h3>Tütün Bağımlılığı Bırakma Danışmanı:</h3>
+                <h3>Sigara bırakma danışmanı:</h3>
                 <span>
                   Sigarayı bırakmak aslında sandığınızdan çok daha kolay.Her
                   defasında “bu son sigaram” diyenlerdenseniz zihninizi
