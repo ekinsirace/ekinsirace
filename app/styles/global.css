@@ -70,6 +70,7 @@ header {
 
 h3 {
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .header {
