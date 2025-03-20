@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -7,49 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap'i dahil et
 import "./styles/global.css";
 
 export default function Home() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Ekin Sıraçe",
-    jobTitle: "Yaşam Koçu ve NLP Danışmanı",
-    url: "https://ekinsirace.com",
-    sameAs: ["https://www.instagram.com/dusunce.kocu"],
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+905549083546",
-      contactType: "customer service",
-    },
-  };
   return (
     <div>
-      <Head>
-        <title>Ekin Sıraçe - Yaşam Koçu | NLP | İlişki Danışmanı</title>
-        <meta
-          name="description"
-          content="Yaşam koçluğu, NLP, ilişki ve evlilik danışmanlığı, tütün bağımlılığını bırakma desteği ve yas süreci danışmanlığı hizmetleriyle hayatınızı değiştirmek için buradayım!"
-        />
-        <meta
-          name="keywords"
-          content="yaşam koçu, NLP koçluğu, ilişki danışmanı, evlilik terapisi, tütün bağımlılığı bırakma, yas danışmanlığı, bireysel gelişim, travma iyileşme"
-        />
-        <meta name="author" content="Ekin Sıraçe" />
-        <meta name="robots" content="index, follow" />
-        <meta
-          property="og:title"
-          content="Ekin Sıraçe - Yaşam Koçu | NLP | İlişki Danışmanı"
-        />
-        <meta
-          property="og:description"
-          content="Kendi potansiyelinizi keşfetmek, ilişkilerinizi güçlendirmek, tütün bağımlılığından kurtulmak ve yas sürecini sağlıklı atlatmak için profesyonel destek alın."
-        />
-        <meta property="og:image" content="/ekinsirace.jpeg" />
-        <meta property="og:url" content="https://ekinsirace.com" />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://ekinsirace.com" />
-        <link rel="icon" href="/favicon.ico" />
-        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
-      </Head>
-
       <header className="header">
         <div className="container">
           <div className="d-flex align-items-center  justify-content-between">
