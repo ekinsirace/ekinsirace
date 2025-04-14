@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ekin Sıraçe - Yaşam Koçu | NLP | İlişki Danışmanı",
+  title: "Ekin Sıraçe - Yaşam Koçu | NLP | Aile Danışmanı",
   description:
     "Yaşam koçluğu, NLP, ilişki ve evlilik danışmanlığı, tütün bağımlılığını bırakma desteği ve yas süreci danışmanlığı hizmetleriyle hayatınızı değiştirmek için buradayım!",
   keywords: [
@@ -30,7 +30,7 @@ export const metadata = {
   authors: [{ name: "Ekin Sıraçe" }],
   robots: "index, follow",
   openGraph: {
-    title: "Ekin Sıraçe - Yaşam Koçu | NLP | İlişki Danışmanı",
+    title: "Ekin Sıraçe - Yaşam Koçu | NLP | Aile Danışmanı",
     description:
       "Kendi potansiyelinizi keşfetmek, ilişkilerinizi güçlendirmek, tütün bağımlılığından kurtulmak ve yas sürecini sağlıklı atlatmak için profesyonel destek alın.",
     url: "https://ekinsirace.com",
